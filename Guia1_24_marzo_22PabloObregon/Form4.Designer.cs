@@ -1,0 +1,94 @@
+﻿namespace Guia1_24_marzo_22PabloObregon
+{
+    partial class Form4
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            dataGridView1 = new DataGridView();
+            button1 = new Button();
+            n1 = new DataGridViewTextBoxColumn();
+            n2 = new DataGridViewTextBoxColumn();
+            suma = new DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            SuspendLayout();
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { n1, n2, suma });
+            dataGridView1.Location = new Point(50, 169);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(344, 121);
+            dataGridView1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(181, 91);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 1;
+            button1.Text = "CALCULAR";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // n1
+            // 
+            n1.HeaderText = "N1";
+            n1.Name = "n1";
+            // 
+            // n2
+            // 
+            n2.HeaderText = "N2";
+            n2.Name = "n2";
+            // 
+            // suma
+            // 
+            suma.HeaderText = "SUMA";
+            suma.Name = "suma";
+            // 
+            // Form4
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(464, 320);
+            Controls.Add(button1);
+            Controls.Add(dataGridView1);
+            Name = "Form4";
+            Text = "Form4";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn n1;
+        private DataGridViewTextBoxColumn n2;
+        private DataGridViewTextBoxColumn suma;
+        private Button button1;
+    }
+}
