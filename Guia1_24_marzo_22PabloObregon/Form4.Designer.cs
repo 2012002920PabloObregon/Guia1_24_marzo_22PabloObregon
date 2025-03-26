@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             dataGridView1 = new DataGridView();
-            button1 = new Button();
             n1 = new DataGridViewTextBoxColumn();
             n2 = new DataGridViewTextBoxColumn();
             suma = new DataGridViewTextBoxColumn();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -40,20 +40,10 @@
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { n1, n2, suma });
-            dataGridView1.Location = new Point(50, 169);
+            dataGridView1.Location = new Point(55, 145);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(344, 121);
             dataGridView1.TabIndex = 0;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(181, 91);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 1;
-            button1.Text = "CALCULAR";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // n1
             // 
@@ -69,6 +59,16 @@
             // 
             suma.HeaderText = "SUMA";
             suma.Name = "suma";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(222, 73);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 1;
+            button1.Text = "CALCULAR";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form4
             // 

@@ -32,8 +32,8 @@ namespace Guia1_24_marzo_22PabloObregon
             {
                 for (int cont2 = 0; cont2 < 2; cont2++)
                 {
-                    int multi = m1[cont2, cont] * m2[cont2, cont];
-                    dataGridView1.Rows.Add(m1[cont2, cont], m2[cont2,cont], multi);
+                    int mul = m1[cont2, cont] * m2[cont2, cont];
+                    dataGridView1.Rows.Add(m1[cont2, cont], m2[cont2, cont], multi);
                 }
             }
 
